@@ -25,4 +25,55 @@
           left: 100px;
         }
       }
+      .pseudo-list li:nth-child(odd) {
+        background-color: lightgray;
+      }
       
+      .pseudo-list li:nth-child(even) {
+        background-color: white;
+      }
+      .pseudo-list li {
+    padding: 12px;
+    background-color: lightblue;
+    margin: 5px;
+    list-style: none;
+}
+
+/* Hover pseudo-class */
+.pseudo-list li:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+/* First child pseudo-class */
+.pseudo-list li:first-child {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Last child pseudo-class */
+.pseudo-list li:last-child {
+    color: red;
+}
+
+/* Nth child pseudo-class */
+.pseudo-list li:nth-child(2) {
+    background-color: lightgreen;
+}
+/* CSS Pseudo-classes */
+
+.pseudo-list li {
+    padding: 12px;
+    margin: 5px;
+    list-style: none;
+}
+
+/* Odd-numbered items */
+.pseudo-list li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+/* Even-numbered items */
+.pseudo-list li:nth-child(even) {
+    background-color: white;
+}
