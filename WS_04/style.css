@@ -1,46 +1,15 @@
-/* Grid container */
-.grid-container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 10px;
-	padding: 20px;
-}
-
-/* Grid items */
-.grid-item {
-	background-color: lightblue;
-	border: 1px solid black;
-	padding: 30px;
-	text-align: center;
-	font-size: 24px;
-}
-
 /* CSS Grid Layout */
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
 }
 
 .grid-item {
-    background-color: lightgreen;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Flexbox Layout */
-
-.flex-container {
-    display: flex;
-    gap: 10px;
-}
-
-.box {
-    background-color: lightblue;
-    padding: 20px;
-    text-align: center;
-    flex: 1;
+	background-color: lightgreen;
+	padding: 20px;
+	text-align: center;
 }
 
 /* CSS Grid Layout */
