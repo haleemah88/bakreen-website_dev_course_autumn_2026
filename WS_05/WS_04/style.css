@@ -1,0 +1,160 @@
+
+/* Grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Grid items */
+.grid-item {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* CSS Grid Layout */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Flexbox Layout */
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+/* CSS Grid Layout */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Flexbox Layout */
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Box */
+
+.responsive-box {
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* For screens 600px or smaller */
+@media screen and (max-width: 600px) {
+    .responsive-box {
+        background-color: lightgreen;
+    }
+}
+
+/* For screens between 601px and 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .responsive-box {
+        background-color: orange;
+    }
+}
+
+/* For screens wider than 900px */
+@media screen and (min-width: 901px) {
+    .responsive-box {
+        background-color: lightblue;
+    }
+}
+
+/* CSS Grid Layout */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Flexbox Layout */
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Media Queries */
+
+.responsive-box {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Mobile screens: 600px or smaller */
+@media (max-width: 600px) {
+    .responsive-box {
+        background-color: lightcoral;
+    }
+}
+
+/* Larger screens: 601px and above */
+@media (min-width: 601px) {
+    .responsive-box {
+        background-color: lightseagreen;
+    }
+}
